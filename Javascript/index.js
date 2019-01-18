@@ -1,3 +1,4 @@
+// Handle text
 var app = new Vue({
     el: '#app',
     data:{
@@ -5,6 +6,7 @@ var app = new Vue({
     }
 });
 
+// Add hover message
 var app2 = new Vue({
     el: '#app-2',
     data: {
@@ -12,6 +14,10 @@ var app2 = new Vue({
     }
 });
 
+/* 
+   Show or hide message
+   if statement
+*/
 var app3 = new Vue({
     el: '#app-3',
     data: {
@@ -19,6 +25,10 @@ var app3 = new Vue({
     }
 });
 
+/*
+    Todo list
+    for loop
+*/
 var app4 = new Vue({
     el: "#app-4",
     data: {
@@ -30,6 +40,7 @@ var app4 = new Vue({
     }
 });
 
+// Reverse text
 var app5 = new Vue({
     el: "#app-5",
     data: {
@@ -42,6 +53,7 @@ var app5 = new Vue({
     }
 });
 
+// Handle form information
 var app6 = new Vue({
     el: "#app-6",
     data: {
